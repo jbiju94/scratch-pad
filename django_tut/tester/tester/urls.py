@@ -16,6 +16,10 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
+from adoptions import views as adoption
+
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('', adoption.home, name='home'),
+    path('adoptions/<int:id>/' , adoption.view_detail, name="detail"), # regrex not used from django 2
 ]

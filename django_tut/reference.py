@@ -49,3 +49,20 @@
 #===========================================================#
 
 
+#+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++#
+#  Django Templates                                         #
+#+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++#
+#-> {{ variable }} - to show a varible
+#-> {% tag %} - to loop, if, control elements, ..etc
+#-> {{ variable|filter }} - formater for strings on templates ( built-in filter->)
+#-> {% url <name> [<arg>] %} - generates <name>'s url (refernce->url.py)
+
+#-> Inheritance 
+#--> {% block content %}
+#--> {% endblock content %} 
+#--> {% extends "<base_template>" %} - extends the <base_template>.
+#--> {% load static %} - load static files.
+#--> {% static <file_name> %} - load file <file_name>.
+#===========================================================#
+
+
