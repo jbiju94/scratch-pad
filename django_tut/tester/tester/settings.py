@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'adoptions',                     #Linking the Application
+    'tester_class',
     'rest_framework',
     'api'
 ]
